@@ -1,0 +1,6 @@
+<input type="text" [(ngModel)]="messageData">
+
+<app-subcomp [message]="messageData" (messageEvent)="newmessage($event)"></app-subcomp>
+
+<p>TempData : {{ tempdata }}</p>
+<router-outlet></router-outlet>
