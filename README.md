@@ -1,0 +1,1 @@
+# angular_data_share_between_components
